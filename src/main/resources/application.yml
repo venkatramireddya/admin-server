@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: admin-server
+
+server:
+  port: 9000
+
+#spring:
+#  mail:
+#    host: localhost
+#  boot:
+#    admin:
+#      notify:
+#        mail:
+#          to: venkatrami.ambati@gmail.com
+#          enabled: true
+#          from: venkatrami.ambati@gmail.com
