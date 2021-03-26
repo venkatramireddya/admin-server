@@ -13,7 +13,7 @@ repositories {
 }
 
 ext {
-	set('springBootAdminVersion', "2.2.3")
+	set('springBootAdminVersion', "2.3.1")
 	set('springCloudVersion', "2020.0.2")
 }
 
@@ -22,7 +22,6 @@ dependencies {
 	implementation 'de.codecentric:spring-boot-admin-starter-server'
 	implementation 'org.springframework.boot:spring-boot-starter-mail'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
-	implementation 'org.springframework.boot:spring-boot-starter-tomcat'
 	implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
 	implementation 'io.zipkin.java:zipkin:1.4.0'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
