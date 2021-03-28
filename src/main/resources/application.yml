@@ -1,7 +1,7 @@
 spring:
   application:
     name: admin-server
-  #Connect to Zipkin Server    
+  #Connect to Zipkin Server, its optional, if it runs on same server and port   
   zipkin:    base-url: http://localhost:9411/zipkin/
 
 server:
